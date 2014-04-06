@@ -5,6 +5,8 @@ cd $DIR
 
 # ./node_modules/coffee-script/bin/coffee -o lib -c src && \
 # coffeedoc -o doc src && \
+cp -r ../coffeenode-text/doc ./coffeenode-text && \
+cp -r ../coffeenode-bitsnpieces/doc ./coffeenode-bitsnpieces && \
 git add --all && \
 git commit -m "autocommit"
 git push -u origin gh-pages
